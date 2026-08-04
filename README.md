@@ -79,11 +79,6 @@ Claude Code 的 `.mcp.json` 示例：
 python scripts/smoke_test.py
 ```
 
-## 安全说明 / Security
-
-- 请勿把 API Key 提交到 git 仓库（已加入 `.gitignore` 的 `.env` 也请勿存放真实 Key）
-- 该 server 按收到的路径读取本地图片，仅应在可信环境中运行
-
 ## License
 
 MIT
